@@ -1,4 +1,4 @@
-export const Search = (props:any) => (
+export const Search = () => (
     <svg 
     width="24" 
     height="24" 

@@ -27,7 +27,7 @@ import { MenuItem, SpaceType } from "../../store/types"
 export const WorkspacesSidebar = () => {
   const dispatch = useDispatch();
   const spaces = useSelector((state: RootState) => state.space.spaces);
-  const [activeSpace, setActiveSpace] = useState<SpaceType | null>(null);
+  const [, setActiveSpace] = useState<SpaceType | null>(null);
   const [isEditing, setIsEditing] = useState(false);
   const activeSpaceId = useSelector(
     (state: RootState) => state.space.activeSpaceId

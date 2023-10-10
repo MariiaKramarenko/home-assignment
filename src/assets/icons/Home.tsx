@@ -1,4 +1,4 @@
-export const Home = (props:any) => (
+export const Home = () => (
     <svg 
         width="24" 
         height="24" 

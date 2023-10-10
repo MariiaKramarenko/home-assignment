@@ -42,7 +42,7 @@ export interface SpaceType {
     name: string;
     columns: Column[];
 }
-  
+
 export interface SpaceState {
     spaces: SpaceType[];
     activeSpaceId: Id | null; 

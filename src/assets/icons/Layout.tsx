@@ -1,4 +1,4 @@
-export const Layout = (props: any) => (
+export const Layout = () => (
     <svg 
         width="24" 
         height="24" 

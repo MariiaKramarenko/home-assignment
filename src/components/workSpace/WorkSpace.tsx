@@ -113,14 +113,13 @@ export const WorkSpace = () => {
               ],
             };
   
-      const updatedColumns = columns.map((column: ColumnType) =>
+      const updatedColumns = columns.map((column: any) =>
         column.id === updatedActiveColumn.id
           ? updatedActiveColumn
           : column.id === updatedOverColumn.id
           ? updatedOverColumn
           : column
       );
-  
       dispatch(replaceColumns(updatedColumns));
     }
   }
