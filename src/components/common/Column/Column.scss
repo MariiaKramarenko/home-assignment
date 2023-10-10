@@ -24,11 +24,13 @@
   border: none;
 }
 .column .column-title {
+  margin-left: 8px;
   overflow: hidden;
   width: 218px;
   text-overflow: ellipsis;
 }
-.column .column-count{
+.column .column-count {
+  margin-left: 8px;
   font-size: 13px;
   color:#B7BEC5; 
 }

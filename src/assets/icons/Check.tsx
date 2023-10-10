@@ -1,4 +1,8 @@
-export const Check = () => (
+interface Props {
+    color: string;
+}
+
+export const Check = (props: Props) => (
 <svg 
     width="17"
     height="16" 
@@ -9,6 +13,6 @@ export const Check = () => (
 
 <path 
     d="M7.16668 10.1148L13.2947 3.98608L14.238 4.92875L7.16668 12.0001L2.92401 7.75742L3.86668 6.81475L7.16668 10.1148Z" 
-    fill="#FFF"/>
+    fill={props.color}/>
 </svg>
 );

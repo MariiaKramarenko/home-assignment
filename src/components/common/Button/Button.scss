@@ -29,7 +29,7 @@
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid rgba(231, 230, 236, 0.50);
-    background: var(--grayscale-base-color, #FFF);
+    background: #FFF;
     box-shadow: 0px 0px 0px 0px rgba(18, 3, 62, 0.10), 
     0px 0px 1px 0px rgba(18, 3, 62, 0.10), 
     0px 1px 1px 0px rgba(18, 3, 62, 0.09), 
@@ -42,7 +42,7 @@
     display: flex;
     width: 278px;
     height: 32px;
-    color: #FFF;
+    color:#594F78;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -54,11 +54,15 @@
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid rgba(231, 230, 236, 0.50);
-    background: #007DFC;
+    background: #D0CDD8;
     box-shadow: 0px 0px 0px 0px rgba(18, 3, 62, 0.10), 
     0px 0px 1px 0px rgba(18, 3, 62, 0.10), 
     0px 1px 1px 0px rgba(18, 3, 62, 0.09), 
     0px 3px 2px 0px rgba(18, 3, 62, 0.05), 
     0px 5px 2px 0px rgba(18, 3, 62, 0.01), 
     0px 8px 2px 0px rgba(18, 3, 62, 0.00);
+    &:hover {
+       color: #FFF;
+       background: #007DFC;
+    }
 }
