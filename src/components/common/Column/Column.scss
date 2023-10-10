@@ -1,0 +1,69 @@
+.column-wrapper {
+  height: 100%;
+}
+.column {
+  border-radius: 16px;
+  background: #ECF1FD;
+  padding: 16px 8px 8px 8px;
+  height: fit-content;
+  margin-left: 24px;
+  width: 294px;
+  overflow: hidden;
+}
+
+.column .column-box {
+  display: flex;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  color: #001C39;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; 
+  background-color: transparent;
+  border: none;
+}
+.column .column-title {
+  overflow: hidden;
+  width: 218px;
+  text-overflow: ellipsis;
+}
+.column .column-count{
+  font-size: 13px;
+  color:#B7BEC5; 
+}
+.column .title-input .column-input {
+   width: 100%;
+   white-space: nowrap;
+   background: none;
+   border-bottom:none;
+   color: inherit;
+   font: inherit;
+   cursor: text;
+   padding: 0;
+   margin: 0;
+   outline: none; 
+   text-overflow: ellipsis;
+}
+
+.column .card-container {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.action-buttons button {
+  display: none;
+
+}
+
+.action-buttons.visible button {
+  display: inline-block; 
+}
+.drag-box {
+  margin-left: 24px;
+  width: 294px;
+  height: 100%;
+  cursor: grab;
+}
