@@ -4,7 +4,7 @@
     overflow: hidden;
     padding: 16px;
     max-width: 278px;
-    height: 50px;
+    min-height: 50px;
     border-radius: 8px;
     background-color: #FFF;
     color: black;
@@ -16,12 +16,14 @@
     line-height: 18px;
     border: none;
 }
-.card .card-title {
+.card-box .card-title {
   overflow: hidden;
-  width: 218px;
   text-overflow: ellipsis;
 }
-
+.card-box .sub-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .card-action-wrap{
   margin-left: 95px;
 }

@@ -48,7 +48,7 @@ export const SubCard = (props: Props) => {
     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <div className="card-box">
         {!editMode ? (
-          <div className="card-title">{props.text}</div>
+          <div className="sub-title">{props.text}</div>
         ) : (
           <input
             value={props.text}

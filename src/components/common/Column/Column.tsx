@@ -103,7 +103,7 @@ export const Column = (props: Props) => {
     <div 
       className="column" 
        onMouseEnter={handleMouseEnter}
-    onMouseLeave={handleMouseLeave}
+       onMouseLeave={handleMouseLeave}
     >
         <div className="column-box">
           {!editMode ? (<div className='title-wrap'>

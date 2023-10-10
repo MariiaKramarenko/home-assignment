@@ -104,7 +104,7 @@ export const Card = (props: Props) => {
                 handleCheckboxChange(columnId, task.id, task.done)
               }
             />
-            <div className="card-title"> {task.text} </div>
+            <div className="card-title">{task.text}</div>
           </>
         ) : (
           <input
