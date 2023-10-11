@@ -75,7 +75,7 @@ export const Space = (props: Props) => {
       {!editMode && !(activeSpaceId === space.id && props.isEditing) ?
        (
        <div className="space-text-wrap">
-          <span>{name}</span>
+          {name}
         </div>
         )
        :

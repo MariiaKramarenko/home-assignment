@@ -1,6 +1,6 @@
 .space-card {
     display: flex;
-    padding: 16px 0 16px 16px;
+    padding: 16px;
     width: 278px;
     height: 64px;
     border-radius: 8px;
@@ -19,10 +19,11 @@
     }
 
     .space-text-wrap {
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: inherit;
+        flex: 1;
         color: #001C39;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         width: 143px;
         font-size: 13px;
         font-style: normal;
@@ -36,6 +37,16 @@
 }
 
 .space-wrapper {
-    padding-top: 8px;
-    margin-left: 16px;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+
+    .action-buttons {
+        display: flex;
+        flex-wrap: inherit;
+        align-content: center;
+        height: 100%;
+        gap: 8px;
+        padding: 4px 0;
+    }
 }
