@@ -4,12 +4,14 @@
   color: inherit;
   font: inherit;
   cursor: pointer;
-  padding: 0;
-}
+  transition: 200ms;
+  opacity: .7;
+  width: 24px;
+  height: 24px;
 
-.action-button:first-child {
-  margin-right: 12px;
-}
-.action-button:nth-child(2) {
-  margin-right: 8px;
+  &:hover {
+    transition: 200ms;
+    opacity: 1;
+  }
+
 }

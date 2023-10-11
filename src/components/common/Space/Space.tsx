@@ -71,7 +71,7 @@ export const Space = (props: Props) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <Group />
+      <Group /> 
       {!editMode && !(activeSpaceId === space.id && props.isEditing) ?
        (
        <div className="space-text-wrap">

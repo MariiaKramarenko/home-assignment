@@ -13,6 +13,7 @@
 
 .column .column-box {
   display: flex;
+  align-items: flex-start;
   padding-bottom: 16px;
   justify-content: space-between;
   color: #001C39;
@@ -52,7 +53,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 8px;
-
+  width: 100%;
 }
 
 .action-buttons button {

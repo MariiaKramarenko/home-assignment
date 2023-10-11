@@ -3,27 +3,36 @@
     padding: 16px 0 16px 16px;
     width: 278px;
     height: 64px;
-    
     border-radius: 8px;
     background-color: #FFFF;
+    opacity: .5;
+    transition: 200ms;
+
     &-active {
+        opacity: 1;
         background-color: #F4F7FE;
     }  
-}
-.space-card .space-text-wrap {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: inherit;
-    color: #001C39;
-    width: 143px;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 18px; 
-    opacity: 0.5;
-    margin-left: 12px;
-    padding-top:7px;
-    
+
+    &:hover {
+        opacity: 1;
+        transition: 200ms;
+    }
+
+    .space-text-wrap {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: inherit;
+        color: #001C39;
+        width: 143px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px; 
+        opacity: 0.5;
+        margin-left: 12px;
+        padding-top:7px;
+    }
+
 }
 
 .space-wrapper {
